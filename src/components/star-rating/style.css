@@ -1,0 +1,38 @@
+:root {
+  --color01: #283c55;
+  --color02: #355070;
+  --color03: #6d597a;
+  --color04: #915f78;
+  --color05: #b56576;
+  --color06: #e56b6f;
+  --color07: #e77c76;
+  --color08: #e88c7d;
+  --color09: #eaac8b;
+  --color10: #eebba0;
+  --color11: #fff;
+}
+
+
+.star-rating {
+  display: flex;
+  height: 95vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--color04);
+}
+
+.star-rating h2 {
+  font-size: 50px;
+  color: var(--color11)
+}
+
+.active {
+  color: #fff700
+}
+
+.inactive {
+  color: rgb(0, 0, 0, .5)
+}
