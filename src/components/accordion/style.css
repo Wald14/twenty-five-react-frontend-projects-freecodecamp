@@ -1,0 +1,55 @@
+:root {
+  --color01: #283c55;
+  --color02: #355070;
+  --color03: #6d597a;
+  --color04: #915f78;
+  --color05: #b56576;
+  --color06: #e56b6f;
+  --color07: #e77c76;
+  --color08: #e88c7d;
+  --color09: #eaac8b;
+  --color10: #eebba0;
+  --color11: #fff;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper button {
+  padding: 20px;
+  background: var(--color03);
+  color: var(--color11);
+  font-style: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.accordion {
+  width: 500px;
+}
+
+.item {
+  background: var(--color01);
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.title {
+  color: var(--color11);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.content {
+  color: var(--color11);
+  height: auto
+}
