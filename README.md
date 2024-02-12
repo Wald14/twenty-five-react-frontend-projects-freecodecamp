@@ -6,3 +6,4 @@ This web app features [25 front-end projects](https://www.youtube.com/watch?v=5Z
 2) Random Color Generator
 3) Star Rater
 4) Image Slider
+5) Load More Products Button
